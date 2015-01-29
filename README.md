@@ -14,7 +14,7 @@ So you can do this
     var value = _.get(myObj, 'a_property', 'Not set');
     console.log(value); // 'Not set'    
 
-    myObj.a_property = bar;
+    myObj.a_property = 'bar';
     var value = _.get(myObj, 'a_property', 'Not set');
     console.log(value); // 'bar'    
 ````
