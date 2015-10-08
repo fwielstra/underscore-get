@@ -6,7 +6,7 @@
   
   _.mixin({
     get: function(obj, propName, default) {
-      return obj[propName] == nil ? default : obj[propName];
+      return obj[propName] == nil ? default : obj[propName] || null;
     }
   });
   
